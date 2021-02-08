@@ -1,0 +1,16 @@
+PODS:
+  - SBConnect (0.0.1)
+
+DEPENDENCIES:
+  - SBConnect (from `../`)
+
+EXTERNAL SOURCES:
+  SBConnect:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SBConnect: 150bff92ac3f96b68fd804d0bc33c4e025c82bf6
+
+PODFILE CHECKSUM: 7310411e0ca250094496a4bf8c01d2cb39e77d58
+
+COCOAPODS: 1.10.1
