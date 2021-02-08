@@ -1,0 +1,4 @@
+framework module SBConnect {
+  header "SBConnect-Swift.h"
+  requires objc
+}

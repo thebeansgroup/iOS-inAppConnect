@@ -1,0 +1,50 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SBConnect
+import Foundation
+import Swift
+import UIKit
+import WebKit
+public enum SBConnectResponse : Swift.Equatable {
+  case success(_: Swift.String?)
+  case failure(_: SBConnect.SBConnectError)
+  case closed
+  public static func == (a: SBConnect.SBConnectResponse, b: SBConnect.SBConnectResponse) -> Swift.Bool
+}
+public typealias SBConnectCompletionHandler = (SBConnect.SBConnectResponse) -> Swift.Void
+@objc @_inheritsConvenienceInitializers @objcMembers public class SBConnect : ObjectiveC.NSObject, SBConnect.SBConnectProtocol {
+  public static func connect(slug: Swift.String, countryCode: Swift.String, completion: @escaping SBConnect.SBConnectCompletionHandler)
+  @objc deinit
+  @objc override dynamic public init()
+}
+public enum SBConnectError : Foundation.LocalizedError, Swift.Equatable {
+  case invalidParameters
+  case pageNotFound(_: Swift.String?)
+  case codeIssuance(_: Swift.String?)
+  case general(_: Swift.String?)
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: SBConnect.SBConnectError, b: SBConnect.SBConnectError) -> Swift.Bool
+}
+public protocol SBConnectProtocol {
+  static func connect(slug: Swift.String, countryCode: Swift.String, completion: @escaping SBConnect.SBConnectCompletionHandler)
+}
+extension UIColor {
+  public static func palette(_ name: SBConnect.PaletteColor, alpha: CoreGraphics.CGFloat = 1) -> UIKit.UIColor
+}
+public enum PaletteColor : Swift.String, Swift.CaseIterable {
+  case uiBlue300
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [SBConnect.PaletteColor]
+  public static var allCases: [SBConnect.PaletteColor] {
+    get
+  }
+}
+extension SBConnect.PaletteColor : Swift.Equatable {}
+extension SBConnect.PaletteColor : Swift.Hashable {}
+extension SBConnect.PaletteColor : Swift.RawRepresentable {}
