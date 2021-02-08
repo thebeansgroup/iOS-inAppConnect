@@ -8,4 +8,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "11.0"
   s.homepage     = "https://github.com/student-beans/iOS-InAppConnect"
   s.vendored_frameworks = "SBConnect.xcframework"
+  s.source       = { :git => "https://github.com/student-beans/iOS-InAppConnect.git" }
 end
