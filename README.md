@@ -25,7 +25,7 @@ To integrate the SDK into your Xcode project using CocoaPods, specify it in your
 
 ```ruby
 target '<Your Target Name>' do
-    pod 'SBConnect'
+    pod 'SBConnect', :git => 'https://github.com/student-beans/iOS-InAppConnect.git'
 end
 ```
 
@@ -34,6 +34,22 @@ Then, run the following command in the terminal from your project directory:
 ```bash
 $ pod install
 ```
+
+### Manual
+
+Download `SBConnect.xcframework` from the top level of this repository. Drag the framework in to your project directory:
+
+<img src="/Screenshots/File Structure.png" alt="File Structure" width="200"/>
+
+
+Ensure that “Copy items if needed” is checked when choosing options for adding the framework.
+
+<img src="/Screenshots/Copy Items If Needed.png" alt="Copy Items If Needed" width="300"/>
+
+
+Make sure to select “Embed Without Signing” in Target Settings > General.
+
+<img src="/Screenshots/Embed Without Signing.png" alt="Embed Without Signing" width="400"/>
 
 ## Usage
 
