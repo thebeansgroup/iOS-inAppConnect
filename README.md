@@ -47,9 +47,9 @@ Ensure that “Copy items if needed” is checked when choosing options for addi
 <img src="/Screenshots/Copy Items If Needed.png" alt="Copy Items If Needed" width="300"/>
 
 
-Make sure to select “Embed Without Signing” in Target Settings > General.
+Make sure to select “Embed & Sign” in Target Settings > General.
 
-<img src="/Screenshots/Embed Without Signing.png" alt="Embed Without Signing" width="400"/>
+<img src="/Screenshots/Embed And Sign.png" alt="Embed And Sign" width="400"/>
 
 ## Usage
 
