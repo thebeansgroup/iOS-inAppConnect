@@ -1,0 +1,18 @@
+{
+  "name": "SBConnect",
+  "version": "0.7-beta",
+  "summary": "Connect To Student Beans In Your Native App",
+  "description": "Offer verified student discounts via student beans without the user leaving your app.",
+  "license": "MIT",
+  "authors": {
+    "Jack Smith": "jack.smith@thebeansgroup.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "homepage": "https://github.com/thebeansgroup/iOS-InAppConnect",
+  "vendored_frameworks": "SBConnect.xcframework",
+  "source": {
+    "path": "./SBConnect.xcframework"
+  }
+}
