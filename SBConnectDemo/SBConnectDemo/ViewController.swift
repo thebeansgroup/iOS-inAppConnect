@@ -68,8 +68,7 @@ class ViewController: UIViewController {
         case .failure(let error):
             print("Error: \(error.self)")
             presentErrorAlert(error)
-        case .closed:
-            print("User exited SBConnect.")
+        case .closed: print("User exited SBConnect.")
         @unknown default: break
         }
     }
