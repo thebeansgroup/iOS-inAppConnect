@@ -25,7 +25,7 @@ To integrate the SDK into your Xcode project using CocoaPods, specify it in your
 
 ```ruby
 target '<Your Target Name>' do
-    pod 'SBConnect', :git => 'https://github.com/student-beans/iOS-InAppConnect.git'
+    pod 'SBConnect', :git => 'https://github.com/thebeansgroup/iOS-InAppConnect.git'
 end
 ```
 
