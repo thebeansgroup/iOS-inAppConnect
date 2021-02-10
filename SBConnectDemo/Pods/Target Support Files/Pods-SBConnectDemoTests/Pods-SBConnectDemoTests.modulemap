@@ -1,6 +1,0 @@
-framework module Pods_SBConnectDemoTests {
-  umbrella header "Pods-SBConnectDemoTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

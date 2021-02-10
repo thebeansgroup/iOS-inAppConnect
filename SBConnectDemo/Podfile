@@ -1,9 +1,0 @@
-use_frameworks!
-
-target 'SBConnectDemo' do
-  pod 'SBConnect', :path => '../'
-
-  target 'SBConnectDemoTests' do
-    inherit! :search_paths
-  end
-end
