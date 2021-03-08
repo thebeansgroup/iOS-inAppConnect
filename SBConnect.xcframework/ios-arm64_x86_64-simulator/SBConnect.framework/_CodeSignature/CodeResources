@@ -10,7 +10,7 @@
 		</data>
 		<key>Configuration.plist</key>
 		<data>
-		+ACczQCWpVQWeoPQm0TEuSXqUmc=
+		HniUA6mPC+C3flFivEhJutkKHhw=
 		</data>
 		<key>Headers/SBConnect-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IHCEFJ9+OSQTYQV3rRxqjSQEjJk=
+		Qufhiwu+/v9FJxI1ql7W/8LGEPo=
 		</data>
 		<key>KeyedStrings.strings</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/SBConnect.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8TIjLkd1aexmA3wBzl77eF9Pbi4=
+		xv2vAwuc4ey/Y5Ew5FtmyyDYQss=
 		</data>
 		<key>Modules/SBConnect.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/SBConnect.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		8TIjLkd1aexmA3wBzl77eF9Pbi4=
+		xv2vAwuc4ey/Y5Ew5FtmyyDYQss=
 		</data>
 		<key>Modules/SBConnect.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/SBConnect.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jJQFiV4CDwQ/qgFfGpoqBT24uMc=
+		RGCkZQzFxObSSRhD31hHaAnHjRU=
 		</data>
 		<key>Modules/SBConnect.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/SBConnect.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		jJQFiV4CDwQ/qgFfGpoqBT24uMc=
+		RGCkZQzFxObSSRhD31hHaAnHjRU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HmHjuzemf4RKcph+Kn1cGMnSARm+ASHHFwtOAERb2Zs=
+			79m3d5oHWe4UidlHoMd3rLQtuG4EKMrn5u4peLsXxjA=
 			</data>
 		</dict>
 		<key>Headers/SBConnect-Swift.h</key>
@@ -125,7 +125,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NPiyqPrFLzTw1dzTR6PAWc/dLzOGjFQo4+XhGQpO37c=
+			iUyFuXKeTWMBWIM5hBNV+v/cluTcIVzsQkJi9NZFsBs=
 			</data>
 		</dict>
 		<key>Modules/SBConnect.swiftmodule/arm64.swiftdoc</key>
@@ -146,7 +146,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NPiyqPrFLzTw1dzTR6PAWc/dLzOGjFQo4+XhGQpO37c=
+			iUyFuXKeTWMBWIM5hBNV+v/cluTcIVzsQkJi9NZFsBs=
 			</data>
 		</dict>
 		<key>Modules/SBConnect.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -167,7 +167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VeAMs8bMSt6DEN/8jVZ4ZlC/GPkyssvZKLG1w2AQcB8=
+			6zCpHfk+9/r1PiAWLXuHbhjnM2wIC9xeEj063fLBRdU=
 			</data>
 		</dict>
 		<key>Modules/SBConnect.swiftmodule/x86_64.swiftdoc</key>
@@ -188,7 +188,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VeAMs8bMSt6DEN/8jVZ4ZlC/GPkyssvZKLG1w2AQcB8=
+			6zCpHfk+9/r1PiAWLXuHbhjnM2wIC9xeEj063fLBRdU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
