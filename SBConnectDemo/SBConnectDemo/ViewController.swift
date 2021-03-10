@@ -66,10 +66,10 @@ class ViewController: UIViewController {
         case .success(let discountCode):
             print("User retrieved discount code: \(discountCode ?? "")")
         case .failure(let error):
-            print("Error: \(error.self)")
+            print("Error: \(error.self) - \(error.errorDescription ?? "")")
             presentErrorAlert(error)
-        case .closed: print("User exited SBConnect.")
-        @unknown default: break
+        case .closed:
+            print("User exited SBConnect.")
         }
     }
 }
@@ -79,7 +79,7 @@ class ViewController: UIViewController {
 extension ViewController {
     private struct Constants {
         static let buttonFontSize: CGFloat = 24
-        static let dummySlug = "gymshark"
+        static let dummySlug = "working-slug"
         static let dummyCountryCode = "uk"
         static let buttonTitle = "Connect"
         static let errorTitle = "Uh Oh!"

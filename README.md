@@ -55,7 +55,14 @@ Make sure to select “Embed & Sign” in Target Settings > General.
 
 Please refer to the demo app within the SBConnectDemo folder as an example of how to integrate this library into your own app.
 
-Firstly, `SBConnect` is added using the import statement:
+`SBConnect` requires that you add an `NSCameraUsageDescription` string to your info.plist. This allows `SBConnect` to request permission to use the user's camera in the event they need to send documents for student verification. We suggest adding the following key - value pair or something similar to your info.plist source code:
+
+```
+<key>NSCameraUsageDescription</key>
+<string>Send Student Beans your verification documents to get your discount!</string>
+```
+
+`SBConnect` is added using the import statement:
 
 
 ```swift

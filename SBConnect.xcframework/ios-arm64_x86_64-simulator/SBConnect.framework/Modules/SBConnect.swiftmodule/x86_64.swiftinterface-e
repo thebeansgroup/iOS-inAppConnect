@@ -22,6 +22,7 @@ public enum SBConnectError : Foundation.LocalizedError, Swift.Equatable {
   case pageNotFound(_: Swift.String?)
   case codeIssuance(_: Swift.String?)
   case general(_: Swift.String?)
+  case noCameraUsageString
   public var errorDescription: Swift.String? {
     get
   }

@@ -209,11 +209,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+
 /// Main class for interacting with Student Beans Connect.
 SWIFT_CLASS("_TtC9SBConnect9SBConnect")
 @interface SBConnect : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
@@ -433,11 +435,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+
 /// Main class for interacting with Student Beans Connect.
 SWIFT_CLASS("_TtC9SBConnect9SBConnect")
 @interface SBConnect : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
