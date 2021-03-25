@@ -138,5 +138,5 @@ A `codeIssuance` error occurs when we have run out of unique discount codes for 
 
 A `general` error is a catch-all error that can occur for a number of reasons such as network errors and server errors. As above, if you experience these errors often, or for a prolonged period of time, please contact your Student Beans account manager.
 
-A `noCameraUsageString` error occurs when your app does not provde `NSCameraUsageDescription` string to your info.plist. Please see the first step for integration under the *usage* section above.
+A `noCameraUsageString` error occurs when your app does not provde `NSCameraUsageDescription` string to your info.plist. Please see the first step for integration under the **usage** section above.
 
