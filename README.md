@@ -126,6 +126,7 @@ public enum SBConnectError: LocalizedError, Equatable {
     case pageNotFound(_ errorDescription: String?)
     case codeIssuance(_ errorDescription: String?)
     case general(_ errorDescription: String?)
+    case noCameraUsageString
 }
 ```
 
@@ -136,4 +137,6 @@ A `pageNotFound` error occurs when your offer cannot be found by SBConnect. This
 A `codeIssuance` error occurs when we have run out of unique discount codes for your offer or your offer has expired. These are rare and will usually be quickly resolved by your account manager at Student Beans. If you experience these errors often, or for a prolonged period of time, please contact your Student Beans account manager.
 
 A `general` error is a catch-all error that can occur for a number of reasons such as network errors and server errors. As above, if you experience these errors often, or for a prolonged period of time, please contact your Student Beans account manager.
+
+A `noCameraUsageString` error occurs when your app does not provde `NSCameraUsageDescription` string to your info.plist. Please see the first step for integration under the *usage* section above.
 
