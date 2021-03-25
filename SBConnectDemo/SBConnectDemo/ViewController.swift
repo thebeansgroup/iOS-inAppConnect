@@ -79,7 +79,7 @@ class ViewController: UIViewController {
 extension ViewController {
     private struct Constants {
         static let buttonFontSize: CGFloat = 24
-        static let dummySlug = "working-slug"
+        static let dummySlug = "gymshark"
         static let dummyCountryCode = "uk"
         static let buttonTitle = "Connect"
         static let errorTitle = "Uh Oh!"
