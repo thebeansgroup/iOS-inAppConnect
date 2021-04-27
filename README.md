@@ -21,11 +21,11 @@ Minimum iOS version: 11.0.
 
 [CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website.
 
-To integrate the SDK into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate the SDK into your Xcode project using CocoaPods, specify it in your `Podfile` with the latest BETA release tag:
 
 ```ruby
 target '<Your Target Name>' do
-    pod 'SBConnect', :git => 'https://github.com/thebeansgroup/iOS-InAppConnect.git'
+    pod 'SBConnect', :tag => 'v0.7.1-beta', :git => 'https://github.com/thebeansgroup/iOS-InAppConnect.git'
 end
 ```
 
@@ -78,13 +78,15 @@ var sbConnect: SBConnectProtocol.Type = SBConnect.self
 
 If you don't want to use the protocol, you can use the `SBConnect` class directly. To do this, omit the above line and replace uses of `sbConnect` with `SBConnect`.
 
-`SBConnect` has only one method; `connect(slug:countryCode:completion:)`. Call this method to show the user the SBConnect view, which allows your student users to log in to Student Beans and collect their discount code. Pass your offer slug, country code, and a completion handler for responding to the various routes the user could take:
+`SBConnect` has only one method; `connect(presentingViewController:slug:countryCode:completion:)`. Call this method to show the user the SBConnect view, which allows your student users to log in to Student Beans and collect their discount code. Pass your offer slug, country code, and a completion handler for responding to the various routes the user could take:
 
 ```swift
-sbConnect.connect(slug:"<your-unique-sb-offer-slug>", countryCode: "<uk>") { [weak self] response in
+sbConnect.connect(presentingViewController: self, slug:"<your-unique-sb-offer-slug>", countryCode: "<uk>") { [weak self] response in
     self?.handleSBConnectResponse(response)
 }
 ```
+
+Note the optional `presentingViewController` is required if you wish to specify the view controller you wish to present from. This value can be defaulted to `nil`, in which case `SBConnect` will attempt to present from the `rootViewController` on your `keyWindow`.
 
 Upon calling this method, the SBConnect view will be displayed and will handle all user interaction within the view.
 It's important you liaise with your Student Beans account manager to confirm your slug and country code and pass these correctly, otherwise you will be returned an error and the SBConnect view will close.
