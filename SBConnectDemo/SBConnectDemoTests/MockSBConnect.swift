@@ -15,7 +15,10 @@ class MockSBConnect: SBConnectProtocol {
     
     // MARK: - SBConnectProtocol
     
-    static func connect(slug: String, countryCode: String, completion: @escaping SBConnectCompletionHandler) {
+    static func connect(presentingViewController: UIViewController?,
+                        slug: String,
+                        countryCode: String,
+                        completion: @escaping SBConnectCompletionHandler) {
         connectCalled = true
     }
 }

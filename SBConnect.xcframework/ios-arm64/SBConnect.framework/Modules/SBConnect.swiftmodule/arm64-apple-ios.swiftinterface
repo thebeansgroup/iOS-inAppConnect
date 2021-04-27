@@ -13,7 +13,7 @@ public enum SBConnectResponse : Swift.Equatable {
 }
 public typealias SBConnectCompletionHandler = (SBConnectResponse) -> Swift.Void
 @objc @_inheritsConvenienceInitializers @objcMembers public class SBConnect : ObjectiveC.NSObject, SBConnectProtocol {
-  public static func connect(slug: Swift.String, countryCode: Swift.String, completion: @escaping SBConnectCompletionHandler)
+  public static func connect(presentingViewController: UIKit.UIViewController? = nil, slug: Swift.String, countryCode: Swift.String, completion: @escaping SBConnectCompletionHandler)
   @objc deinit
   @objc override dynamic public init()
 }
@@ -29,7 +29,7 @@ public enum SBConnectError : Foundation.LocalizedError, Swift.Equatable {
   public static func == (a: SBConnectError, b: SBConnectError) -> Swift.Bool
 }
 public protocol SBConnectProtocol {
-  static func connect(slug: Swift.String, countryCode: Swift.String, completion: @escaping SBConnectCompletionHandler)
+  static func connect(presentingViewController: UIKit.UIViewController?, slug: Swift.String, countryCode: Swift.String, completion: @escaping SBConnectCompletionHandler)
 }
 extension UIColor {
   public static func palette(_ name: PaletteColor, alpha: CoreGraphics.CGFloat = 1) -> UIKit.UIColor

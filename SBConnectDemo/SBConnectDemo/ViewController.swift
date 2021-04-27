@@ -46,7 +46,9 @@ class ViewController: UIViewController {
     }
 
     @objc func didTapConnect() {
-        sbConnect.connect(slug: Constants.dummySlug, countryCode: Constants.dummyCountryCode) { [weak self] response in
+        sbConnect.connect(presentingViewController: nil,
+                          slug: Constants.dummySlug,
+                          countryCode: Constants.dummyCountryCode) { [weak self] response in
             self?.handleSBConnectResponse(response)
         }
     }
