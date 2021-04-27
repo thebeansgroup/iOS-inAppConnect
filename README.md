@@ -86,7 +86,7 @@ sbConnect.connect(presentingViewController: self, slug:"<your-unique-sb-offer-sl
 }
 ```
 
-Note the optional `presentingViewController` is required if you wish to specify the view controller you wish to present from. This value can be defaulted to `nil`, in which case `SBConnect` will attempt to present from the `rootViewController` on your `keyWindow`.
+Note the optional `presentingViewController` is required if you wish to specify the view controller to present from. This value can be defaulted to `nil`, in which case `SBConnect` will attempt to present from the `rootViewController` on your `keyWindow`.
 
 Upon calling this method, the SBConnect view will be displayed and will handle all user interaction within the view.
 It's important you liaise with your Student Beans account manager to confirm your slug and country code and pass these correctly, otherwise you will be returned an error and the SBConnect view will close.
