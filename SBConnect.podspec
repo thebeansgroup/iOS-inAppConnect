@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SBConnect"
-  s.version      = "0.7-beta"
+  s.version      = "0.7.1-beta"
   s.summary      = "Connect To Student Beans In Your Native App"
   s.description  = "Offer verified student discounts via student beans without the user leaving your app."
   s.license      = "MIT"
