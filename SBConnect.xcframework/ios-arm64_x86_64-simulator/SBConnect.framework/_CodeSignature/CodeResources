@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		uIOpmeuVg1ksVe7GC3ZBbBgODto=
+		BEvCdcJBDC4IeoatVF89pZxHyAE=
 		</data>
 		<key>Configuration.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Headers/SBConnect-Swift.h</key>
 		<data>
-		+6oYoRToUhbOnEFz1qIVAn/r+DM=
+		vJZ70DE98WkoIqW7i+vxhZe4j7s=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bdsv5io0MMLVWGK2C1MxRfnwOoc=
+		IFJ35gdfIrYjX0DfDpLNUo2zLOQ=
 		</data>
 		<key>KeyedStrings.strings</key>
 		<data>
@@ -26,51 +26,51 @@
 		</data>
 		<key>Modules/SBConnect.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mApMJ6Lz213Neo6/nE7hvm9IZlQ=
+		g1GY8reMFeU1XIOSn2ZZpEsVvWw=
 		</data>
 		<key>Modules/SBConnect.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OGrTRhBQ1sxFGr2zXVG1zsf9QaU=
+		GxFaNNfRB6zPr65hBoS37ukx7TU=
 		</data>
 		<key>Modules/SBConnect.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GqJ8IJygKE9PZuwf6gXeIafcARM=
+		srMfHWzaWi8+oeTn+T2gwAnDtrM=
 		</data>
 		<key>Modules/SBConnect.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		mApMJ6Lz213Neo6/nE7hvm9IZlQ=
+		g1GY8reMFeU1XIOSn2ZZpEsVvWw=
 		</data>
 		<key>Modules/SBConnect.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		OGrTRhBQ1sxFGr2zXVG1zsf9QaU=
+		GxFaNNfRB6zPr65hBoS37ukx7TU=
 		</data>
 		<key>Modules/SBConnect.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		GqJ8IJygKE9PZuwf6gXeIafcARM=
+		srMfHWzaWi8+oeTn+T2gwAnDtrM=
 		</data>
 		<key>Modules/SBConnect.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+YhtMaoEi3HpixKipeCxPdD62P8=
+		Qr9rObIYxbMdW7MKpSxyZPvVa4E=
 		</data>
 		<key>Modules/SBConnect.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9Et1h1kjWm7Ntkkv5C/5p1E0K1k=
+		2kooqPkCiBB86Cz0qW3b+/yiSL8=
 		</data>
 		<key>Modules/SBConnect.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fEVWtQ10aNtLBDzrucuRuyAfOUg=
+		UNlhli0CzRHuka4awDocJ/hbf0w=
 		</data>
 		<key>Modules/SBConnect.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		+YhtMaoEi3HpixKipeCxPdD62P8=
+		Qr9rObIYxbMdW7MKpSxyZPvVa4E=
 		</data>
 		<key>Modules/SBConnect.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		9Et1h1kjWm7Ntkkv5C/5p1E0K1k=
+		2kooqPkCiBB86Cz0qW3b+/yiSL8=
 		</data>
 		<key>Modules/SBConnect.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		fEVWtQ10aNtLBDzrucuRuyAfOUg=
+		UNlhli0CzRHuka4awDocJ/hbf0w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ou2vttSjdcERLW+3FIM7T/Tn8DT4U20xhjTb3djGzgk=
+			VdCdo5GiGkDaXOAeUIQVy4dnSJKjmlMN08iVBQihEcg=
 			</data>
 		</dict>
 		<key>Configuration.plist</key>
@@ -97,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ivkIqzZnfEthFYgLDjPr1LE+gmnb13C6wRun8ZpZMsg=
+			O7NQJGKJjaC+7tWBMzrueityJobHK2DWhhJPWerBT7g=
 			</data>
 		</dict>
 		<key>KeyedStrings.strings</key>
@@ -111,84 +111,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6KvYk0SDeEQ10hnsakBFOQvds4WrqKxBCgZFrxr/WCs=
+			4rWfVBeAE/C38tv4fN++04Ki7KozpHN7vEv1Gknh4hU=
 			</data>
 		</dict>
 		<key>Modules/SBConnect.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IbO8Lnd3LhCi96v/P+Fzkx6QpzN+yTXE8zXJMrle7+Y=
+			BkPZBS98xZt9w0RW29zu64mWMgBy/Fykhy09dtDX/Fg=
 			</data>
 		</dict>
 		<key>Modules/SBConnect.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j23gr0E2eu4A0SSpP0UsjeUbXn/bIpneanOrXf8WZSw=
+			eokkmpyZiuUylC5jBjVqCO+vcyMV+1zZO/wA26Rp5UU=
 			</data>
 		</dict>
 		<key>Modules/SBConnect.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6KvYk0SDeEQ10hnsakBFOQvds4WrqKxBCgZFrxr/WCs=
+			4rWfVBeAE/C38tv4fN++04Ki7KozpHN7vEv1Gknh4hU=
 			</data>
 		</dict>
 		<key>Modules/SBConnect.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IbO8Lnd3LhCi96v/P+Fzkx6QpzN+yTXE8zXJMrle7+Y=
+			BkPZBS98xZt9w0RW29zu64mWMgBy/Fykhy09dtDX/Fg=
 			</data>
 		</dict>
 		<key>Modules/SBConnect.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j23gr0E2eu4A0SSpP0UsjeUbXn/bIpneanOrXf8WZSw=
+			eokkmpyZiuUylC5jBjVqCO+vcyMV+1zZO/wA26Rp5UU=
 			</data>
 		</dict>
 		<key>Modules/SBConnect.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hSuN5EKVJvfeFh0kp5Z/7PZWR0PixLYpsa+5jlIANgM=
+			DjHNKWjTDO4cj1sCYsosnMvmUr/53chsIrEK8CrO0pU=
 			</data>
 		</dict>
 		<key>Modules/SBConnect.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hmyfbRy56eKSYNwCwrxeYUczldWNXcNcxc3L0PvmdLE=
+			r5RIZEjaWwXpLQkMp/LRpHBHVi8OTrTeD9GV/Tpqktc=
 			</data>
 		</dict>
 		<key>Modules/SBConnect.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LU/JKXgzM3Tq00k+NY2442OskIGPs4WqloHHov5nWN0=
+			G2A/AYmnTLs/qoaAFXuEuQ7JLgPIfIGrO2evf7XIjDQ=
 			</data>
 		</dict>
 		<key>Modules/SBConnect.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hSuN5EKVJvfeFh0kp5Z/7PZWR0PixLYpsa+5jlIANgM=
+			DjHNKWjTDO4cj1sCYsosnMvmUr/53chsIrEK8CrO0pU=
 			</data>
 		</dict>
 		<key>Modules/SBConnect.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hmyfbRy56eKSYNwCwrxeYUczldWNXcNcxc3L0PvmdLE=
+			r5RIZEjaWwXpLQkMp/LRpHBHVi8OTrTeD9GV/Tpqktc=
 			</data>
 		</dict>
 		<key>Modules/SBConnect.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LU/JKXgzM3Tq00k+NY2442OskIGPs4WqloHHov5nWN0=
+			G2A/AYmnTLs/qoaAFXuEuQ7JLgPIfIGrO2evf7XIjDQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
